@@ -1,8 +1,8 @@
-let valor // Não inicializada
+let valor // Variável criada, mas não inicializada
 console.log(valor)
 
 
-// console.log(valor2) // Erro: variável não definida (não foi criada)
+// console.log(valor2) // Erro: variável não definida/declarada (não foi criada)
 
 valor = null // Ausência de valor
 console.log(valor)

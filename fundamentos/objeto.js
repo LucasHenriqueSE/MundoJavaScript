@@ -1,3 +1,4 @@
+// Objetos em JavaScript são dinâmicos assim como os Arrays
 const prod1 = {}
 prod1.nome = 'Celular Ultra Mega'
 prod1.preco = 4998.90
@@ -11,7 +12,7 @@ const prod2 = {
     obj : {
         blabla : 1,
         obj : {
-            blabla = 2
+            blabla : 2
         }
     }
 }

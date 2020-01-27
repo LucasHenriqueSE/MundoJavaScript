@@ -1,4 +1,4 @@
-// Retorna 'Infinity', um valor que o JavaScript não consegue definir.
+// Qualquer número dividido por '0' retorna 'Infinity', um valor que o JavaScript não consegue definir(infinito).
 console.log(7 / 0);
 
 // Tenta converter o valor '10' para Number e realizar a operação. 

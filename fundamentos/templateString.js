@@ -3,7 +3,7 @@ const nome = 'Lucas'
 // Concatenação padrão
 const concatenacao = 'Olá ' + nome + '!'
 
-// Concatenação através de Template String, utiliza expressão para acessar variaveis, fora isso tudo é texto
+// Concatenação através de Template String, utiliza expressão para processar os dados, fora isso tudo é texto
 const template = `
         Olá ${nome}!
         Tome cuidado!!!

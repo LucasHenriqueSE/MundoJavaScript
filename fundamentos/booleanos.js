@@ -4,6 +4,9 @@ console.log(isAtivo)
 isAtivo = true
 console.log(isAtivo)
 
+// Quando se utiliza a negação(!), o JavaScript interpreta o valor como booleano
+// Neste caso, a dupla negação(!!) faz com que o valor volte a seu estado original (true ou false)
+// Qualquer valor diferente de 0 no JavaScript é iterpretado como true, desde que esteja com a negação
 isAtivo = 1
 console.log(!!isAtivo)
 

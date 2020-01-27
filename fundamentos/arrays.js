@@ -1,4 +1,4 @@
-// Um array é dinâmico (não possui tamanho fixo)
+// Um array é dinâmico (não possui tamanho fixo) podendo ser modificado a qualquer momento
 const valores = [7.7, 8.9, 6.3, 9.2]
 console.log(valores[0], valores[3])
 
@@ -16,10 +16,10 @@ console.log(valores.length)
 valores.push({id: 3}, false, null, 'teste')
 console.log(valores)
 
-// A função .pop() remove o valor do ultimo indice
+// A função .pop() remove o último indice do array
 console.log(valores.pop())
 
-// Remove desde indices de arrays à atributos de objetos
+// Remove o valor do indice de um array e atributos de objetos também
 delete valores[0]
 console.log(valores)
 
