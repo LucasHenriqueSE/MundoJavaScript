@@ -1,4 +1,4 @@
-// 'var' não possui escopo de bloco, ficando neste caso no escopo global
+/* 'var' não possui escopo de bloco, ficando neste caso no escopo global */
 {
     {
         {
@@ -12,10 +12,10 @@
 
 console.log(sera)
 
-// 'var' possui escopo de função
-function teste(){
+/* 'var' possui escopo de função */
+function teste() {
     var local = 123
 }
 
 teste()
-console.log(local)
+console.log(local) // Erro por conta do escopo

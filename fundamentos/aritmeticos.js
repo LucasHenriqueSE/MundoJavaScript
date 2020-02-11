@@ -9,4 +9,4 @@ const modulo = a % 2
 
 console.log(soma, subtracao, multiplicacao, divisao, modulo)
 
-console.log(typeof -divisao) // Operador unário(utiliza um único elemento)
+console.log(-divisao) // Operador unário(utiliza um único elemento)

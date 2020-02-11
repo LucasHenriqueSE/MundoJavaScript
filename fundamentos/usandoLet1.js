@@ -1,4 +1,4 @@
-// 'let' possui os três escopos(global, função e bloco)
+/* 'let' possui os três escopos(global, função e bloco) */
 
 var numero = 1
 

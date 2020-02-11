@@ -9,4 +9,3 @@ console.log(num1)
 
 console.log(++num1 === num2--) // Realiza o incremento antes da comparação e realiza o decremento depois
 console.log(num1 === num2)
-
